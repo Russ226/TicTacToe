@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet"> 
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+</head>
+<body>
+<h1 class= "title">Tic Tac Toe</h1>
+<div class="scoreboard">
+	<h3 class= "one">Player One</h3>
+	<h3 class= "game">Game Till</h3>
+	<h3 class= "two">Player Two</h3>
+</div>
+
+<div class="scores">
+	<h3 class="oneScore"></h3>
+	<h3 class="winReq"></h3>
+	<h3 class="twoScore"></h3>
+</div>
+<div class="option">
+	<button id="resetScores">Reset Scores</button>
+</div>
+<hr>
+<table>
+	<tbody>
+		<tr>
+			<td>
+				<div id="1">1</div>
+			</td>
+			<td>
+				<div id="2">2</div>
+			</td>
+			<td>
+				<div id="3">3</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="4">4</div>
+			</td>
+			<td>
+				<div id="5">5</div>
+			</td>
+			<td>
+				<div id="6">6</div>
+			</td>
+		</tr>
+		<tr>
+			<td id="invisible">
+				<div id="7">7</div>
+			</td>
+			<td id="invisible">
+				<div id="8">8</div>
+			</td>
+			<td id="invisible">
+				<div id="9">9</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<div class="option">
+	<button id="reset">Start New Game</button>
+</div>
+<script type="text/javascript" src="tictactoe.js"></script>
+</body>
+</html>
